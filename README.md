@@ -19,30 +19,6 @@
 
 Hi, I’m Jason. I specialize in building a wide variety of projects. Since every solution is unique, each project I work on includes a comprehensive guide on "How to Build" the foundational infrastructure, accompanied by supporting configurations to facilitate scalability and growth. These configurations are developed with careful consideration of key factors, including Security, Scalability, Reliability, Operational Excellence, Performance Efficiency, and Cost Optimization. For those interested in the strategic rationale behind each project, I have provided detailed notes at the end of the page.
 
-Where applicable, each project will also include the following artifacts:
-  
-  - **Intro Video**
-  - **Requirements Specification**
-  - **Architecture Document Overview**
-  - **Design Diagrams**
-    - High Level
-    - Detailed Architecture Diagrams
-    - Data Flow
-    - Sequence
-  - **Security Architecture Plan**
-  - **Operational Excellence Plan**
-  - **Performance/Efficiency Plan**
-  - **Cost Optimization Plan**
-  - **Reliability Plan**
-  - **Source Code**
-  - **Configuration Files**
-    - Infrastructure as Code (IAC)
-  - **Testing**
-  - **CI/CD Environment**
-  - **Monitoring and Logging**
-  - **Scripts**
-  - **Route Files**
-
 <details>
 <summary><h3>Projects</h3></summary>
   
