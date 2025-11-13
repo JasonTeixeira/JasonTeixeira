@@ -2,7 +2,7 @@
 
 # Sage / Jason Teixeira
 
-**Senior Solutions Architect | Test Automation Engineer**
+**Senior Test Automation Engineer | SDET**
 
 <a href="https://www.linkedin.com/in/jason-teixeira/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -30,7 +30,7 @@
 
 ## About
 
-I build systems that don't break at 2 AM. Spent the last 8+ years writing production code—test automation frameworks, backend services, CI/CD pipelines. My approach: automate everything, document like your future self will curse your past self, and always assume the network is lying.
+I build systems that don't break at 2 AM. Spent the last 8+ years shipping code people actually use—test automation frameworks, backend services, CI/CD pipelines. My approach: automate everything, document like your future self will curse your past self, and always assume the network is lying.
 
 Started as a sysadmin tired of manual deployments. Learned Python to automate myself out of repetitive work. Fell into test automation when I realized flaky tests cost more than building frameworks properly. Now I build frameworks that teams actually want to use.
 
@@ -85,13 +85,16 @@ Currently working on:
 **[Web Automation Framework](https://github.com/JasonTeixeira/Web-Automation-Test-Framework)**  
 118+ tests using Page Object Model. Multi-browser support (Chromium, Firefox, WebKit), parallel execution, auto-screenshots on failure.
 
-### Backend Systems
+### Backend & Cloud Projects
 
-**[Master Migration Pipeline](https://github.com/JasonTeixeira/Master-Migration-Pipeline)**  
-C# .NET Core migration orchestration with retry logic and rollback support.
+**[RiskRadar](https://github.com/JasonTeixeira/RiskRadar)**  
+Portfolio risk analytics platform. Next.js + FastAPI, real-time VaR/CVaR calculations, multi-portfolio support.
 
-**[CI/CD Pipeline](https://github.com/JasonTeixeira/CI-CD-Pipeline-1)**  
-Python FastAPI deployment pipeline with automated testing gates.
+**[Cloudmind](https://github.com/JasonTeixeira/Cloudmind)**  
+Multi-cloud cost tracking dashboard. AWS Cost Explorer integration, OpenAI-powered cost recommendations.
+
+**[CloudResumeChallangeAWS](https://github.com/JasonTeixeira/CloudResumeChallangeAWS)**  
+Production portfolio site on AWS. S3, CloudFront, Route 53, ACM. Live at [jasonteixeira.com](https://jasonteixeira.com).
 
 ## By The Numbers
 
@@ -102,10 +105,10 @@ Python FastAPI deployment pipeline with automated testing gates.
 │  500+ production tests written (E2E, API, visual regression)   │
 │  3 test frameworks built from scratch (all in active use)      │
 │  10,000+ lines of test automation code                         │
-│  8+ years writing production software                          │
+│  8+ years shipping code people actually use                    │
+│  Reduced test suite runtime from 45min → 8min via parallelization│
 │  0 flaky tests tolerated (if it flakes, fix or delete)         │
-│  Multiple CI/CD pipelines deployed (GitHub Actions, Jenkins)   │
-│  Dozens of services containerized and orchestrated             │
+│  CISSP certified (2024)                                         │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
