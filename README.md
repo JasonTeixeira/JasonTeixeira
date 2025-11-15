@@ -2,7 +2,6 @@
 
 # Sage / Jason Teixeira
 
-**Senior Test Automation Engineer | SDET**
 
 <a href="https://www.linkedin.com/in/jason-teixeira/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
