@@ -1,122 +1,141 @@
-<div align="center">
+# Jason Teixeira
 
-# Sage / Jason Teixeira
+**Test Automation Architect** | Building frameworks teams actually want to use
 
+I build testing and automation systems for complex distributed environments—mostly focused on solving problems I've hit in my own work. Spent the last few years in quantitative trading and cloud infrastructure, where downtime costs money per second, not per hour.
 
-<a href="https://www.linkedin.com/in/jason-teixeira/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:sage@sageideas.org">
-  <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<a href="https://github.com/JasonTeixeira">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-</a>
+🌐 **Portfolio:** [jasonteixeira.com](https://jasonteixeira.com)  
+📧 **Email:** sage@sageideas.org  
+💼 **LinkedIn:** [linkedin.com/in/jason-teixeira](https://linkedin.com/in/jason-teixeira)
 
-</div>
+---
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  WHAT I BUILD                                                   │
-├─────────────────────────────────────────────────────────────────┤
-│  Test Automation Frameworks     Python, Playwright, Pytest     │
-│  API Testing Infrastructure     REST, Pydantic, Retry Logic    │
-│  CI/CD Pipelines                GitHub Actions, Docker, K8s    │
-│  Cloud Architecture             AWS, Azure, Terraform          │
-│  Backend Systems                C# .NET, FastAPI, Microservices│
-└─────────────────────────────────────────────────────────────────┘
-```
+## What I Do
 
-## About
+I specialize in test automation for systems where "it works on my machine" isn't good enough. That means:
 
-I build systems that don't break at 2 AM. Spent the last 8+ years shipping code people actually use—test automation frameworks, backend services, CI/CD pipelines. My approach: automate everything, document like your future self will curse your past self, and always assume the network is lying.
+- **E2E & Integration Testing** - Frameworks that run in CI/CD without flaking
+- **Performance & Load Testing** - Finding bottlenecks before production does
+- **Visual Regression Testing** - Catching UI bugs computers are better at spotting than humans
+- **Contract Testing** - Letting microservices deploy independently without breaking each other
+- **Test Data Management** - Generating realistic data without manually setting up fixtures
 
-Started as a sysadmin tired of manual deployments. Learned Python to automate myself out of repetitive work. Fell into test automation when I realized flaky tests cost more than building frameworks properly. Now I build frameworks that teams actually want to use.
+My approach: automate first, document obsessively, build systems that don't wake you up at 2 AM.
 
-Currently working on:
-- Test automation frameworks with 500+ tests across 3 projects (Python, Playwright, Pytest)
-- Trading signal platforms (because markets are great at teaching you about failure modes)
-- Cloud infrastructure that scales without manual intervention
-- Tooling that makes deployment boring (boring = good)
+---
 
-## What I Believe
+## Featured Automation Frameworks
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  Engineering Philosophy                                         │
-├─────────────────────────────────────────────────────────────────┤
-│  • Tests should fail fast and tell you exactly what broke      │
-│  • Retry logic is not optional when dealing with networks      │
-│  • Documentation is code—outdated docs are worse than none     │
-│  • Parallelize everything or watch your CI run for an hour     │
-│  • Page Object Model isn't optional at 100+ UI tests           │
-│  • If you're copy-pasting, you're doing it wrong               │
-└─────────────────────────────────────────────────────────────────┘
-```
+### [Test Data Management Framework](https://github.com/JasonTeixeira/Test-Data-Management-Framework)
+Generates realistic test data from database schemas. Handles foreign key relationships and cleans up automatically via transaction rollback. Built this after spending too much time manually creating data for integration tests.
 
-## Tech Stack
+**Stack:** Python, SQLAlchemy, Faker, pytest  
+**Supports:** PostgreSQL, MySQL, MongoDB
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  Category               Stack                                    │
-├─────────────────────────────────────────────────────────────────┤
-│  Languages              Python, C# (.NET 6+), TypeScript         │
-│  Testing                Playwright, Pytest, pytest-xdist, Allure│
-│  APIs                   FastAPI, Pydantic, Requests, REST       │
-│  Cloud                  AWS, Azure, Terraform, CloudFormation   │
-│  Containers             Docker, Kubernetes, Helm                │
-│  CI/CD                  GitHub Actions, Jenkins, ArgoCD         │
-│  Databases              PostgreSQL, SQL Server, MongoDB, Redis  │
-│  Monitoring             Prometheus, Grafana, ELK Stack          │
-└─────────────────────────────────────────────────────────────────┘
-```
+### [Visual Regression Testing Framework](https://github.com/JasonTeixeira/Visual-Regression-Framework)
+Automated screenshot comparison across browsers using Playwright and OpenCV. Main challenge was handling anti-aliasing differences between browsers and making the diff algorithm fast enough for CI pipelines.
 
-## Featured Projects
+**Stack:** Python, Playwright, OpenCV, Pillow, pytest  
+**Features:** Multi-browser, responsive testing, dark mode support
 
-### Test Automation Frameworks
+### [Contract Testing Framework](https://github.com/JasonTeixeira/Contract-Testing-Framework)
+Consumer-driven contract testing for microservices using Pact. Lets services test independently without needing the full stack. Addresses the "all tests pass but prod breaks" problem.
 
-**[E-Commerce Test Suite](https://github.com/JasonTeixeira/E-Commerce-Test-Suite)**  
-278+ tests across 8 dimensions (UI, API, visual regression, performance, security, accessibility). Built with Python + Playwright. CI/CD pipeline with 14 parallel jobs.
+**Stack:** Python, Pact, pytest, FastAPI, Docker  
+**Features:** Provider verification, versioning, Pact Broker integration
 
-**[API Test Automation](https://github.com/JasonTeixeira/API-Test-Automation-Wireframe)**  
-125+ REST API tests with client abstraction layer, retry logic, Pydantic validation, and CI/CD integration. Handles flaky external APIs gracefully.
+### [E2E Testing Framework](https://github.com/JasonTeixeira/Qa-Automation-Project)
+Page Object Model implementation with custom driver factory, screenshot helpers, and config management. Designed for teams that need tests to run reliably in CI/CD.
 
-**[Web Automation Framework](https://github.com/JasonTeixeira/Web-Automation-Test-Framework)**  
-118+ tests using Page Object Model. Multi-browser support (Chromium, Firefox, WebKit), parallel execution, auto-screenshots on failure.
+**Stack:** Python, Selenium, pytest  
+**Features:** Multi-browser, parallel execution, detailed reporting
 
-### Backend & Cloud Projects
+### [API Testing Framework](https://github.com/JasonTeixeira/API-Testing-Framework)
+Complete REST API testing framework with FastAPI backend for testing. Includes authentication, request chaining, and response validation. Built to demonstrate API testing best practices.
 
-**[RiskRadar](https://github.com/JasonTeixeira/RiskRadar)**  
-Portfolio risk analytics platform. Next.js + FastAPI, real-time VaR/CVaR calculations, multi-portfolio support.
+**Stack:** Python, FastAPI, pytest, Requests  
+**Features:** Token auth, database fixtures, comprehensive assertions
 
-**[Cloudmind](https://github.com/JasonTeixeira/Cloudmind)**  
-Multi-cloud cost tracking dashboard. AWS Cost Explorer integration, OpenAI-powered cost recommendations.
+### [Performance Testing Framework](https://github.com/JasonTeixeira/Performance-Testing-Framework)
+Load testing framework using Locust for distributed testing scenarios. Includes custom test scenarios, real-time metrics, and integration with monitoring systems.
 
-**[CloudResumeChallangeAWS](https://github.com/JasonTeixeira/CloudResumeChallangeAWS)**  
-Production portfolio site on AWS. S3, CloudFront, Route 53, ACM. Live at [jasonteixeira.com](https://jasonteixeira.com).
+**Stack:** Python, Locust, Grafana  
+**Features:** Distributed execution, custom scenarios, metrics export
 
-## By The Numbers
+---
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  Real Stats (Not Vanity Metrics)                               │
-├─────────────────────────────────────────────────────────────────┤
-│  500+ production tests written (E2E, API, visual regression)   │
-│  3 test frameworks built from scratch (all in active use)      │
-│  10,000+ lines of test automation code                         │
-│  8+ years shipping code people actually use                    │
-│  Reduced test suite runtime from 45min → 8min via parallelization│
-│  0 flaky tests tolerated (if it flakes, fix or delete)         │
-│  CISSP certified (2024)                                         │
-└─────────────────────────────────────────────────────────────────┘
-```
+## Technical Background
 
-## Get In Touch
+**Primary Languages:** Python, JavaScript/TypeScript, SQL, Bash  
+**Testing & Automation:** pytest, Playwright, Selenium, Locust, Pact, TestContainers  
+**Cloud & Infrastructure:** AWS, GCP, Azure, Kubernetes, Docker, Terraform  
+**CI/CD:** GitHub Actions, GitLab CI, Jenkins, Docker, Helm  
+**Databases:** PostgreSQL, MongoDB, Redis, DynamoDB  
 
-Best way to reach me: **sage@sageideas.org**
+**Specialized In:**
+- Building test frameworks from scratch
+- Integrating testing into CI/CD pipelines
+- Performance testing at scale
+- Test data management strategies
+- Microservices testing patterns
 
-Also on:
-- **LinkedIn:** [jason-teixeira](https://www.linkedin.com/in/jason-teixeira/)
-- **GitHub:** [@JasonTeixeira](https://github.com/JasonTeixeira)
+---
 
-If you're reaching out about a role, mention which project caught your attention. Generic messages go to /dev/null.
+## Background
+
+Started at Home Depot as a systems specialist, where I automated myself out of manual deployments and repetitive work. Learned Python not to "become a developer," but to stop answering the same tickets twice.
+
+That led me into cloud infrastructure and test automation—building frameworks teams wanted to use, reducing deployment times from hours to minutes, and eventually landing in quantitative finance where I found my niche.
+
+Currently at HighStrike, building high-performance distributed systems for algorithmic trading. When your systems process $10M+ daily volume, you learn to test things thoroughly.
+
+---
+
+## Current Focus
+
+**Building:**
+- API testing framework with automatic contract generation
+- Chaos engineering tools for distributed systems
+- Performance monitoring automation
+
+**Learning:**
+- Rust for high-performance testing tools
+- Advanced Kubernetes testing patterns
+- Property-based testing approaches
+
+**Interested In:**
+- Senior/Staff test automation roles
+- Building testing infrastructure at scale
+- Remote or hybrid positions
+- Companies serious about test automation (not just manual QA with Selenium)
+
+---
+
+## Open Source
+
+All my testing frameworks are open source. If you find them useful, feel free to use them, fork them, or contribute. I try to respond to issues within 24-48 hours.
+
+**Looking for contributors on:**
+- Visual regression framework optimization
+- Contract testing documentation
+- Performance testing examples
+
+---
+
+## Let's Connect
+
+Always happy to talk about test automation, distributed systems, or solving interesting testing challenges.
+
+📧 **Email:** sage@sageideas.org  
+💼 **LinkedIn:** [linkedin.com/in/jason-teixeira](https://linkedin.com/in/jason-teixeira)  
+🌐 **Portfolio:** [jasonteixeira.com](https://jasonteixeira.com)
+
+**I'm currently open to:**
+- Senior/Staff Test Automation Engineer roles
+- Automation Architect positions
+- Remote or hybrid opportunities
+- Contract/consulting for testing infrastructure
+
+---
+
+_Building systems that don't break at 2 AM_ ⚡
