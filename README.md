@@ -4,7 +4,7 @@
 
 I build testing and automation systems for complex distributed environments—mostly focused on solving problems I've hit in my own work. Spent the last few years in quantitative trading and cloud infrastructure, where downtime costs money per second, not per hour.
 
-🌐 **Portfolio:** [jasonteixeira.com](https://jasonteixeira.com)  
+🌐 **Portfolio:** https://www.sageideas.dev
 📧 **Email:** sage@sageideas.org  
 💼 **LinkedIn:** [linkedin.com/in/jason-teixeira](https://linkedin.com/in/jason-teixeira)
 
