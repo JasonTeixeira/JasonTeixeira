@@ -1,141 +1,177 @@
-# Jason Teixeira
+<div align="center">
 
-**Test Automation Architect** | Building frameworks teams actually want to use
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B0F14,45:0F766E,100:F59E0B&text=Jason%20Teixeira&fontColor=F8FAFC&fontSize=56&fontAlignY=38&desc=Trading%20Infrastructure%20%7C%20AI-Native%20Platforms%20%7C%20Automation%20Systems&descAlignY=58&descSize=16" alt="Jason Teixeira profile header" />
 
-I build testing and automation systems for complex distributed environments—mostly focused on solving problems I've hit in my own work. Spent the last few years in quantitative trading and cloud infrastructure, where downtime costs money per second, not per hour.
+[![Portfolio](https://img.shields.io/badge/Portfolio-sageideas.dev-F59E0B?style=for-the-badge)](https://www.sageideas.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-JasonTeixeira-0B0F14?style=for-the-badge&logo=github)](https://github.com/JasonTeixeira)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jason--teixeira-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jason-teixeira)
+[![Email](https://img.shields.io/badge/Email-sage%40sageideas.org-DC2626?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sage@sageideas.org)
 
-🌐 **Portfolio:** https://www.sageideas.dev
-📧 **Email:** sage@sageideas.org  
-💼 **LinkedIn:** [linkedin.com/in/jason-teixeira](https://linkedin.com/in/jason-teixeira)
+</div>
 
----
+<table>
+<tr>
+<td width="58%" valign="top">
 
-## What I Do
+## Current Operating Thesis
 
-I specialize in test automation for systems where "it works on my machine" isn't good enough. That means:
+I build systems where failure has a real cost: trading research platforms, AI-native business infrastructure, CI/CD automation, security tooling, and test systems that can survive production pressure.
 
-- **E2E & Integration Testing** - Frameworks that run in CI/CD without flaking
-- **Performance & Load Testing** - Finding bottlenecks before production does
-- **Visual Regression Testing** - Catching UI bugs computers are better at spotting than humans
-- **Contract Testing** - Letting microservices deploy independently without breaking each other
-- **Test Data Management** - Generating realistic data without manually setting up fixtures
+My current work is centered on the **Nexural ecosystem**: futures strategy research, NinjaTrader automation, institutional-grade backtest diagnostics, and tooling for turning raw trading logs into defensible strategy intelligence.
 
-My approach: automate first, document obsessively, build systems that don't wake you up at 2 AM.
+</td>
+<td width="42%" valign="top">
 
----
+## Focus Areas
 
-## Featured Automation Frameworks
+- Futures trading infrastructure: ES, NQ, CL, GC, SI, HG, ZB, RTY
+- NinjaTrader strategy analysis and automation
+- Python 3.11 research tooling and Monte Carlo validation
+- Next.js / Supabase / Stripe operating platforms
+- Test automation, visual regression, performance, and security gates
 
-### [Test Data Management Framework](https://github.com/JasonTeixeira/Test-Data-Management-Framework)
-Generates realistic test data from database schemas. Handles foreign key relationships and cleans up automatically via transaction rollback. Built this after spending too much time manually creating data for integration tests.
-
-**Stack:** Python, SQLAlchemy, Faker, pytest  
-**Supports:** PostgreSQL, MySQL, MongoDB
-
-### [Visual Regression Testing Framework](https://github.com/JasonTeixeira/Visual-Regression-Framework)
-Automated screenshot comparison across browsers using Playwright and OpenCV. Main challenge was handling anti-aliasing differences between browsers and making the diff algorithm fast enough for CI pipelines.
-
-**Stack:** Python, Playwright, OpenCV, Pillow, pytest  
-**Features:** Multi-browser, responsive testing, dark mode support
-
-### [Contract Testing Framework](https://github.com/JasonTeixeira/Contract-Testing-Framework)
-Consumer-driven contract testing for microservices using Pact. Lets services test independently without needing the full stack. Addresses the "all tests pass but prod breaks" problem.
-
-**Stack:** Python, Pact, pytest, FastAPI, Docker  
-**Features:** Provider verification, versioning, Pact Broker integration
-
-### [E2E Testing Framework](https://github.com/JasonTeixeira/Qa-Automation-Project)
-Page Object Model implementation with custom driver factory, screenshot helpers, and config management. Designed for teams that need tests to run reliably in CI/CD.
-
-**Stack:** Python, Selenium, pytest  
-**Features:** Multi-browser, parallel execution, detailed reporting
-
-### [API Testing Framework](https://github.com/JasonTeixeira/API-Testing-Framework)
-Complete REST API testing framework with FastAPI backend for testing. Includes authentication, request chaining, and response validation. Built to demonstrate API testing best practices.
-
-**Stack:** Python, FastAPI, pytest, Requests  
-**Features:** Token auth, database fixtures, comprehensive assertions
-
-### [Performance Testing Framework](https://github.com/JasonTeixeira/Performance-Testing-Framework)
-Load testing framework using Locust for distributed testing scenarios. Includes custom test scenarios, real-time metrics, and integration with monitoring systems.
-
-**Stack:** Python, Locust, Grafana  
-**Features:** Distributed execution, custom scenarios, metrics export
+</td>
+</tr>
+</table>
 
 ---
 
-## Technical Background
+## Flagship Builds
 
-**Primary Languages:** Python, JavaScript/TypeScript, SQL, Bash  
-**Testing & Automation:** pytest, Playwright, Selenium, Locust, Pact, TestContainers  
-**Cloud & Infrastructure:** AWS, GCP, Azure, Kubernetes, Docker, Terraform  
-**CI/CD:** GitHub Actions, GitLab CI, Jenkins, Docker, Helm  
-**Databases:** PostgreSQL, MongoDB, Redis, DynamoDB  
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Specialized In:**
-- Building test frameworks from scratch
-- Integrating testing into CI/CD pipelines
-- Performance testing at scale
-- Test data management strategies
-- Microservices testing patterns
+### [Nexural Automation](https://github.com/JasonTeixeira/Nexural_Automation)
 
----
+Open-source NinjaTrader strategy analysis and development toolkit. Imports trade logs, calculates 50+ institutional-grade metrics, runs Monte Carlo simulations, performs overfitting checks, and produces AI-assisted strategy improvement recommendations.
 
-## Background
+**Stack:** Python 3.11, FastAPI, React, Electron, pytest, NinjaTrader exports  
+**Core:** Deflated Sharpe, walk-forward logic, robustness analysis, trade heatmaps, strategy comparison, AI analyst workflow
 
-Started at Home Depot as a systems specialist, where I automated myself out of manual deployments and repetitive work. Learned Python not to "become a developer," but to stop answering the same tickets twice.
+</td>
+<td width="50%" valign="top">
 
-That led me into cloud infrastructure and test automation—building frameworks teams wanted to use, reducing deployment times from hours to minutes, and eventually landing in quantitative finance where I found my niche.
+### [Sage Ideas Studio](https://www.sageideas.dev)
 
-Currently at HighStrike, building high-performance distributed systems for algorithmic trading. When your systems process $10M+ daily volume, you learn to test things thoroughly.
+AI-native B2B studio operating system. One production Next.js application covering marketing, CRM, contracts, e-signature, billing, client portal, delivery workflows, audit logging, and observability.
 
----
+**Stack:** Next.js 16, React 19, Supabase Postgres, Stripe, Resend, Sentry, PostHog, Vercel  
+**Surface:** 105 routes, 57 API endpoints, 38 database tables, RLS isolation tests, E2E production checks
 
-## Current Focus
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Building:**
-- API testing framework with automatic contract generation
-- Chaos engineering tools for distributed systems
-- Performance monitoring automation
+### [Landing Zone Guardrails](https://github.com/JasonTeixeira/Landing-Zone-Guardrails)
 
-**Learning:**
-- Rust for high-performance testing tools
-- Advanced Kubernetes testing patterns
-- Property-based testing approaches
+Production-minded AWS landing zone foundation with Terraform, AWS Organizations, service control policies, auditability, and cost controls.
 
-**Interested In:**
-- Senior/Staff test automation roles
-- Building testing infrastructure at scale
-- Remote or hybrid positions
-- Companies serious about test automation (not just manual QA with Selenium)
+**Stack:** Terraform, AWS Organizations, IAM, SCPs, CI/CD  
+**Purpose:** multi-account guardrails without killing developer velocity
 
----
+</td>
+<td width="50%" valign="top">
 
-## Open Source
+### [Vision Agents](https://github.com/JasonTeixeira/Vision-Agents)
 
-All my testing frameworks are open source. If you find them useful, feel free to use them, fork them, or contribute. I try to respond to issues within 24-48 hours.
+Real-time video AI agent framework exploring multimodal systems that watch, listen, and reason across live media streams.
 
-**Looking for contributors on:**
-- Visual regression framework optimization
-- Contract testing documentation
-- Performance testing examples
+**Stack:** Python, WebRTC, OpenAI Realtime, Gemini, YOLO, video processors  
+**Purpose:** low-latency AI systems for coaching, monitoring, and operator assistance
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Let's Connect
+## Automation And Quality Engineering Suite
 
-Always happy to talk about test automation, distributed systems, or solving interesting testing challenges.
-
-📧 **Email:** sage@sageideas.org  
-💼 **LinkedIn:** [linkedin.com/in/jason-teixeira](https://linkedin.com/in/jason-teixeira)  
-🌐 **Portfolio:** [jasonteixeira.com](https://jasonteixeira.com)
-
-**I'm currently open to:**
-- Senior/Staff Test Automation Engineer roles
-- Automation Architect positions
-- Remote or hybrid opportunities
-- Contract/consulting for testing infrastructure
+| Project | What It Proves | Stack |
+|---|---|---|
+| [E2E Framework](https://github.com/JasonTeixeira/E2E-Framework) | Maintainable browser automation with page objects, driver factories, screenshots, reporting, retries, and CI execution | Python, Selenium, pytest, Allure |
+| [API Testing Framework](https://github.com/JasonTeixeira/API-Testing-Framework) | Full FastAPI app plus test client for auth, retries, response validation, and performance assertions | FastAPI, pytest, Requests, JWT |
+| [Performance Testing Framework](https://github.com/JasonTeixeira/Performance-Testing-Framework) | Load, spike, stress, and endurance scenarios with realistic user flows and percentile-driven analysis | Python, Locust, Grafana |
+| [Visual Regression Testing Suite](https://github.com/JasonTeixeira/visual-regression-testing-suite) | Automated visual diff testing across browsers and breakpoints to catch UI regressions before release | Selenium, Percy, pytest |
+| [Security Testing Suite](https://github.com/JasonTeixeira/Security-Testing-Suite) | OWASP Top 10 checks, API security validation, secrets detection, CWE mapping, and CI security reporting | Python, pytest, Bandit, security scanners |
+| [CI/CD Pipeline](https://github.com/JasonTeixeira/CI-CD-Pipeline) | Delivery automation patterns for consistent quality gates and release discipline | GitHub Actions, automation tooling |
 
 ---
 
-_Building systems that don't break at 2 AM_ ⚡
+## Technical Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python%203.11-111827?style=for-the-badge&logo=python&logoColor=F59E0B)
+![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript)
+![Next.js](https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs)
+![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react)
+![Supabase](https://img.shields.io/badge/Supabase-111827?style=for-the-badge&logo=supabase)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql)
+![Stripe](https://img.shields.io/badge/Stripe-111827?style=for-the-badge&logo=stripe)
+![Vercel](https://img.shields.io/badge/Vercel-111827?style=for-the-badge&logo=vercel)
+![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker)
+![Terraform](https://img.shields.io/badge/Terraform-111827?style=for-the-badge&logo=terraform)
+![Playwright](https://img.shields.io/badge/Playwright-111827?style=for-the-badge&logo=playwright)
+![NinjaTrader](https://img.shields.io/badge/NinjaTrader-111827?style=for-the-badge)
+
+</div>
+
+---
+
+## How I Build
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Research First
+
+No strategy claim survives without clean data, out-of-sample validation, walk-forward logic, transaction cost awareness, and explicit bias checks.
+
+</td>
+<td width="33%" valign="top">
+
+### Production Discipline
+
+Security gates, RLS tests, E2E checks, audit logs, rollback paths, and monitoring are part of the system, not polish added later.
+
+</td>
+<td width="33%" valign="top">
+
+### Operator UX
+
+Dashboards should compress decision time. The point is not decoration. The point is fast, confident action under pressure.
+
+</td>
+</tr>
+</table>
+
+---
+
+## GitHub Signal
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=JasonTeixeira&show_icons=true&hide_border=true&theme=gruvbox&rank_icon=github" alt="Jason Teixeira GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JasonTeixeira&layout=compact&hide_border=true&theme=gruvbox" alt="Jason Teixeira top languages" />
+
+</div>
+
+---
+
+## Connect
+
+I am building at the intersection of quantitative trading infrastructure, AI-native software, and automation systems that make complex work repeatable.
+
+**Portfolio:** [sageideas.dev](https://www.sageideas.dev)  
+**Email:** [sage@sageideas.org](mailto:sage@sageideas.org)  
+**LinkedIn:** [linkedin.com/in/jason-teixeira](https://linkedin.com/in/jason-teixeira)
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0B0F14,45:0F766E,100:F59E0B" alt="footer wave" />
+
+</div>
