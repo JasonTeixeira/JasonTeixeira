@@ -2,6 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=0:070A0F,35:0F766E,70:F59E0B,100:111827&text=Jason%20Teixeira&fontColor=F8FAFC&fontSize=64&fontAlignY=42&desc=AI%20Apps%20%7C%20Trading%20Systems%20%7C%20Machine%20Learning%20%7C%20Cloud%20Architecture&descAlignY=63&descSize=18&animation=fadeIn" alt="Jason Teixeira AI apps trading systems machine learning cloud architecture" />
 
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-I%20ship%20AI%20features%2C%20then%20I%20prove%20they%20work-10B981?style=for-the-badge)](https://agency.sageideas.dev)
 [![Sage Ideas](https://img.shields.io/badge/SAGE%20IDEAS-AI--Native%20Studio-F59E0B?style=for-the-badge)](https://www.sageideas.dev/)
 [![Nexural](https://img.shields.io/badge/NEXURAL-Trading%20Cockpit-14B8A6?style=for-the-badge)](https://www.nexural.io)
 [![Sage After Dark](https://img.shields.io/badge/SAGE%20AFTER%20DARK-Creative%20Lab-111827?style=for-the-badge)](https://www.sageafterdark.com)
