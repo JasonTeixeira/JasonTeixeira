@@ -10,6 +10,8 @@ At Nexural, I build trading applications and work on the APIs and data services 
 
 ## Start with these projects
 
+[Watch the 77-second Supplier Update Triage walkthrough](assets/supplier-triage/README.md). It shows actual captured n8n configuration, AI output, validation rules, SQLite records, and the outage path. It is an edited walkthrough of a local capstone with fictional emails, not a new live run.
+
 | Project | What to inspect | Scope |
 | --- | --- | --- |
 | [Supplier Update Triage](https://github.com/JasonTeixeira/tripleten-ai-automation-portfolio/tree/main/projects/supplier-delay-triage) | Actual n8n workflow, custom Ollama prompt, Python validation, SQLite output, manual review, and duplicate handling | Local capstone using fictional supplier emails. The current checkout passed 42 automated tests on November 2, 2026. |
