@@ -1,6 +1,6 @@
 # Jason (Sage) Teixeira
 
-**AI Automation & Software Developer | Python, TypeScript, SQL & API Integrations | Fintech**
+**AI Automation & AI Software Developer | Python, TypeScript, SQL & API Integrations | Fintech**
 
 I build software that connects applications, data, and everyday business processes. My work includes fintech dashboards, trading tools, AI workflows, and voice-enabled learning applications. I like figuring out where a process breaks, building a useful feature, and checking what happens when the inputs are messy.
 
