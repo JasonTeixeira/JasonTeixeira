@@ -1,50 +1,41 @@
-# Jason (Sage) Teixeira
+# Jason Teixeira
 
-**AI Automation & AI Software Developer | Python, TypeScript, SQL & API Integrations | Fintech**
+**Principal Systems & AI Architect · Founder of [CRUCIBLE](https://crucible.sageideas.dev) & [Sage Ideas](https://sageideas.dev)**
 
-I build software that connects applications, data, and everyday business processes. My work includes fintech dashboards, trading tools, AI workflows, and voice-enabled learning applications. I like figuring out where a process breaks, building a useful feature, and checking what happens when the inputs are messy.
+I build, stress-test, and harden production AI and backend systems for teams that cannot afford them to break — then prove they work with evaluation suites, release gates, and public receipts.
 
-At Nexural, I build trading applications and work on the APIs and data services behind them. Previously, I developed fintech dashboards and market-data workflows at HighStrike in a 14-person remote team. My Computer Science and Finance education helps me work through both the code and the business questions.
+[**Portfolio & Advisory (sageideas.dev)**](https://sageideas.dev) · [**CRUCIBLE Systems OS (crucible.sageideas.dev)**](https://crucible.sageideas.dev) · [**LinkedIn**](https://www.linkedin.com/in/jason-teixeira/) · [**hello@sageideas.dev**](mailto:hello@sageideas.dev)
 
-[Engineering portfolio](https://agency.sageideas.dev) · [LinkedIn](https://www.linkedin.com/in/jason-teixeira/) · [Email](mailto:sage@sageideas.org)
+---
 
-## Start with these projects
+## Flagship Platforms & Open-Source Repositories
 
-[Watch the 77-second Supplier Update Triage walkthrough](assets/supplier-triage/README.md). It shows actual captured n8n configuration, AI output, validation rules, SQLite records, and the outage path. It is an edited walkthrough of a local capstone with fictional emails, not a new live run.
-
-| Project | What to inspect | Scope |
+| System / Repository | What It Does | Status |
 | --- | --- | --- |
-| [Supplier Update Triage](https://github.com/JasonTeixeira/tripleten-ai-automation-portfolio/tree/main/projects/supplier-delay-triage) | Actual n8n workflow, custom Ollama prompt, Python validation, SQLite output, manual review, and duplicate handling | Local capstone using fictional supplier emails. The current checkout passed 42 automated tests on November 2, 2026. |
-| [LLM Evaluation Gate](https://github.com/JasonTeixeira/llm-eval-gate) | Golden cases, Promptfoo assertions, a pass-rate floor, and GitHub Actions | Seven baseline mock cases passed; deliberately broken mock responses failed all seven. These runs check the evaluation setup, not live-model accuracy. |
-| [Nexural Automation](https://github.com/JasonTeixeira/Nexural_Automation) | Trading research tools, example data, integration components, and testing workflows | An engineering and research lab. Simulation results are separate from live trading performance. |
-| [Engineering Portfolio](https://agency.sageideas.dev) | Interactive examples, project notes, source links, and captured quality checks | A starting point for discussing implementation choices and limitations. |
+| [**CRUCIBLE by Sage Ideas**](https://crucible.sageideas.dev) | Entry-to-Principal Systems Engineering OS: **181** executable ArchOS blueprints, **14** Field Manual chapters, **19** browser-native Pyodide WASM cold drills, **6** Cloud War-Rooms, and SHA-256 Proof Ledgers. | Live SaaS |
+| [**spartan-systems-lab**](https://github.com/JasonTeixeira/spartan-systems-lab) | Isolated Linux, Python, PostgreSQL, Docker & Firecracker Cloud War-Room sandbox orchestrator powering CRUCIBLE failure labs. | Public · Active |
+| [**llm-eval-gate**](https://github.com/JasonTeixeira/llm-eval-gate) | Zero-fluff LLM evaluation CI gate with golden cases, red-team checks, and hard merge-blocking thresholds. | Public · Active |
+| [**sage-kernel**](https://github.com/JasonTeixeira/sage-kernel) | Proof-first, MCP-native engineering operating system for repeatable local verification and agent workflows. | Public · Active |
+| [**playwright-sdet-regression-suite**](https://github.com/JasonTeixeira/playwright-sdet-regression-suite) | Production Playwright TypeScript SDET regression harness with trace-on-retry and release gates. | Public · Active |
+| [**Nexural_Automation**](https://github.com/JasonTeixeira/Nexural_Automation) | Safety-first NinjaTrader 8 automation engineering lab and deterministic execution tooling (engineering only). | Public · Active |
+| [**nexural-automation-starter**](https://github.com/JasonTeixeira/nexural-automation-starter) | Paper-money-safe webhook + paper-order starter kit for deterministic trading system testing. | Public · Active |
 
-My cloud work also includes [Terraform/AWS modules](https://github.com/JasonTeixeira/terraform-aws-modules). I am reviewing their validation, security checks, and deployment assumptions before presenting them as deployment-ready examples.
+---
 
-## How I work
+## Engineering Philosophy
 
-I keep AI extraction separate from business-rule validation, make uncertain cases visible, and test failure paths alongside successful ones. I document decisions so another person can understand the implementation and reproduce the result.
+- **Evidence before claims:** Every production AI feature ships with golden evaluation sets, failure-mode assertions, and automated CI gates that can block a bad release.
+- **Real execution boundaries:** Separate untrusted runtime execution (Pyodide WebAssembly Web Workers, isolated Firecracker sandboxes, strict Postgres RLS) from application state.
+- **Systems that stay shipped:** Architecture, observability, billing idempotency, and automated verification belong in the same release — never bolted on afterward.
 
-Before focusing on software, I managed client projects at Sage Ideas. Coordinating budgets, schedules, subcontractors, and issue resolution taught me to ask clear questions, communicate changes, and follow through. I bring that approach to development.
+## Core Stack
 
-## Tools I use
+- **Languages & Frameworks:** TypeScript, Python, SQL, Next.js (App Router), FastAPI, Node.js
+- **AI & Evaluation:** LLM eval harnesses, grounded RAG verification, MCP servers, agent orchestration, Promptfoo, Playwright
+- **Systems & Infra:** PostgreSQL (RLS), Supabase, Stripe Billing, Docker, Fly.io Firecracker, AWS / Terraform, GitHub Actions
 
-- **Software:** Python, JavaScript, TypeScript, React, Next.js, SQL, REST APIs, Git, Docker.
-- **Automation and evaluation:** n8n, Make, Zapier, Ollama, Promptfoo, GitHub Actions.
-- **Current development:** cloud applications, deployment practices, and Terraform/AWS examples.
+## Work With Me
 
-## Background
-
-- Founder & Lead Developer, Nexural: January 2024-present.
-- Senior Analyst & Full-Stack Developer, HighStrike: January 2021-January 2026.
-- Project Manager & General Contractor, Sage Ideas: January 2016-January 2021.
-- B.S. Computer Science, Full Sail University (2012); B.S. Finance, Kean University (2010).
-- TripleTen AI Automation program: in progress.
-
-## Work with me
-
-I am based in Orlando, Florida and seeking remote, hands-on software development, AI automation, or API integration work. I am also open to technical implementation and application support roles that use these skills. I am a US citizen and do not require US work sponsorship.
-
-I speak fluent English and Portuguese, with conversational Spanish. For international remote opportunities, I work from the United States.
-
-I am happy to walk through the code and decisions behind my projects. Contact **sage@sageideas.org** or connect on [LinkedIn](https://www.linkedin.com/in/jason-teixeira/).
+- **Shipping an AI feature or hardening production systems?** Book a 15-minute scoping call at [**sageideas.dev/book**](https://sageideas.dev/book) or inspect the [**AI Release-Readiness Audit**](https://sageideas.dev/ai-release-readiness-audit).
+- **Training from L3 to Principal L5 in systems engineering?** Start in [**CRUCIBLE**](https://crucible.sageideas.dev).
+- **Direct contact:** [hello@sageideas.dev](mailto:hello@sageideas.dev) · Fluent in English & Portuguese, conversational Spanish (US-based).
